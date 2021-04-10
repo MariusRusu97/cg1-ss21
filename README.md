@@ -4,7 +4,7 @@
 
 Computer Graphics @ LMU Munich Summer Semester 2021
 
-- Homepage: [https://mimuc.de/cg1](http://mimuc.de/cg)
+- Homepage: [https://mimuc.de/cg1](http://mimuc.de/cg1)
 - Responsible Professor: [Prof. Dr. Butz](https://www.medien.ifi.lmu.de/team/andreas.butz/)
 - Tutorial Instructor: [Changkun Ou](https://www.medien.ifi.lmu.de/team/changkun.ou/), [Florian Lang](https://www.um.informatik.uni-muenchen.de/personen/mitarbeiter/lang/index.html)
 
