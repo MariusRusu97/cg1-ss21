@@ -65,4 +65,4 @@ It is welcome to send a [pull request](https://github.com/mimuc/cg1-ss21/pulls) 
 
 ## License
 
-Copyright &copy; 2021 GNU GPLv3. Created by [Changkun Ou](https://changkun.de), Florian Lang, and [Andreas Butz](https://butz.org)
+Copyright &copy; 2021 GNU GPLv3. Created by [Changkun Ou](https://changkun.de), Florian Lang, and [Andreas Butz](http://butz.org)
