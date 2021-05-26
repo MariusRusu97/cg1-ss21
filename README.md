@@ -6,15 +6,13 @@ Computer Graphics @ LMU Munich Summer Semester 2021
 
 - Homepage: [https://mimuc.de/cg1](http://mimuc.de/cg1)
 - Responsible Professor: [Prof. Dr. Butz](https://www.medien.ifi.lmu.de/team/andreas.butz/)
-- Tutorial Instructor: [Changkun Ou](https://www.medien.ifi.lmu.de/team/changkun.ou/), [Florian Lang](https://www.um.informatik.uni-muenchen.de/personen/mitarbeiter/lang/index.html)
+- Tutorial Instructor: [Changkun Ou](https://www.medien.ifi.lmu.de/team/changkun.ou/), ~~Florian Lang~~, [David Englmeier](https://www.medien.ifi.lmu.de/team/david.englmeier/)
 
 ## Toolkits
 
 We will introduce and use the following toolkits for this course:
 
 - [Node.js](https://nodejs.org/en/): 14.16.0+
-- [TypeScript](https://www.typescriptlang.org/): 4.2+
-- [three.js](https://threejs.org/): r127+
 - [VSCode](https://code.visualstudio.com/): latest download
 - [Blender](https://www.blender.org/): 2.92+
 
@@ -23,6 +21,22 @@ It is recommended for you to install and take a glance at these tools beforehand
 ## Lecture Materials
 
 Released on [LMU Moodle](https://moodle.lmu.de/course/view.php?id=13999).
+
+| # | Date | Slides |
+|:-:|:----:|:-------|
+|0|  13.04.2021 | [Welcome](https://lmu-munich.zoom.us/j/95046750574) |
+|1|  20.04.2021 | [Intro and Motivation](https://moodle.lmu.de/mod/lesson/view.php?id=740736) |
+|2|  27.04.2021 | [Transformations and Scene Graphs](https://moodle.lmu.de/mod/lesson/view.php?id=769404) |
+|3|  04.05.2021 | [3D Geometry and Modeling](https://moodle.lmu.de/mod/lesson/view.php?id=775858) |
+|4|  11.05.2021 | [3D Camera](https://moodle.lmu.de/mod/lesson/view.php?id=789730) |
+|5|  18.05.2021 | [Rasterization](https://moodle.lmu.de/mod/lesson/view.php?id=793902) |
+|6|  01.06.2021 | [Light, Materials, Appearance](https://moodle.lmu.de/mod/lesson/view.php?id=812253) |
+|7|  08.06.2021 | Shading and Rendering |
+|8|  15.06.2021 | Animation |
+|9|  22.06.2021 | Guest Lecture |
+|10| 29.06.2021 | Interaction in 3D |
+|11| 06.07.2021 | Volume Rendering & Scalar Field Visualization |
+|12| 13.07.2021 | Final QA |
 
 ## Tutorial Materials
 
@@ -46,14 +60,16 @@ The following table shows the syllabus of the tutorials:
 
 ### Assignments
 
-| # | Submission Period | Assignments | Work Package | Solution Discussion |
-|:--|:-----:|:------------|:---------:|:-----------|
-| 1 | 30.04 - 04.05 | [Transformation](./assignments/01-transform/README.pdf) | [Template](./assignments/01-transform) | in Tutorial 3 |
-| 2 | 07.05 - 14.05 | [Mesh](./assignments/02-mesh/README.pdf) | [Template](./assignments/02-mesh) | in Tutorial 5 |
-| 3 | 17.05 - 26.05 | [Camera](./assignments/03-camera/README.pdf) | [Template](./assignments/03-camera) | in Tutorial 6 |
-| 4 | 28.05 - 06.06 | [Rasterization](./assignments/04-raster/README.pdf) | [Template](./assignments/04-raster) | in Tutorial 7 |
-| 5 | 14.06 - 25.06 | [Material](./assignments/05-material/README.pdf) | [Template](./assignments/05-material) | in Tutorial 10 |
-| 6 | 28.06 - 13.07 | [Illumination](./assignments/06-illumination/README.pdf) | [Template](./assignments/06-illumination) | in Tutorial 12 |
+Released on [Uni2Work](https://uni2work.ifi.lmu.de/course/S21/IfI/CG1/sheet).
+
+| # | Submission Period ([AoE](https://en.wikipedia.org/wiki/Anywhere_on_Earth)) | Assignments | Solution Discussion |
+|:--|:-----:|:------------|:-----------|
+| 1 | 30.04 - 04.05 | [Transformation](https://uni2work.ifi.lmu.de/course/S21/IfI/CG1/sheet/Graded%20Assignment%201:%20Transformations/show) | in Tutorial 3 |
+| 2 | 07.05 - 14.05 | [Mesh](https://uni2work.ifi.lmu.de/course/S21/IfI/CG1/sheet/Graded%20Assignment%202:%20Mesh/show) | in Tutorial 5 |
+| 3 | 17.05 - 26.05 | [Camera](https://uni2work.ifi.lmu.de/course/S21/IfI/CG1/sheet/Graded%20Assignment%203:%20Camera/show) | in Tutorial 6 |
+| 4 | 28.05 - 06.06 | [Rasterization](https://uni2work.ifi.lmu.de/course/S21/IfI/CG1/sheet/Graded%20Assignment%204:%20Rasterization/show) | in Tutorial 7 |
+| 5 | 14.06 - 25.06 | [Material](https://uni2work.ifi.lmu.de/course/S21/IfI/CG1/sheet/Graded%20Assignment%205:%20Material/show) | in Tutorial 10 |
+| 6 | 28.06 - 13.07 | [Illumination]([./assignments/06-illumination/README.pdf](https://uni2work.ifi.lmu.de/course/S21/IfI/CG1/sheet/Graded%20Assignment%206:%20Illumination/show)) | in Tutorial 12 |
 
 ## Discussion
 
@@ -65,4 +81,4 @@ It is welcome to send a [pull request](https://github.com/mimuc/cg1-ss21/pulls) 
 
 ## License
 
-Copyright &copy; 2021 GNU GPLv3. Created by [Changkun Ou](https://changkun.de), Florian Lang, and [Andreas Butz](http://butz.org)
+Copyright &copy; 2021 GNU GPLv3. Created by [Changkun Ou](https://changkun.de), ~~Florian Lang~~ [David Englmeier](https://www.medien.ifi.lmu.de/team/david.englmeier/), and [Andreas Butz](http://butz.org)
