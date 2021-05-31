@@ -31,7 +31,7 @@ Released on [LMU Moodle](https://moodle.lmu.de/course/view.php?id=13999).
 |4|  11.05.2021 | [3D Camera](https://moodle.lmu.de/mod/lesson/view.php?id=789730) |
 |5|  18.05.2021 | [Rasterization](https://moodle.lmu.de/mod/lesson/view.php?id=793902) |
 |6|  01.06.2021 | [Light, Materials, Appearance](https://moodle.lmu.de/mod/lesson/view.php?id=812253) |
-|7|  08.06.2021 | Shading and Rendering |
+|7|  08.06.2021 | [Shading and Rendering](https://moodle.lmu.de/mod/lesson/view.php?id=817646) |
 |8|  15.06.2021 | Animation |
 |9|  22.06.2021 | Guest Lecture |
 |10| 29.06.2021 | Interaction in 3D |
@@ -51,12 +51,8 @@ The following table shows the syllabus of the tutorials:
 |4|  12.05/13.05 | [Camera](https://changkun.de/s/cg1ss21-camera) | ![](./docs/04-camera/teaser.png) [Scene Graph](https://mimuc.github.io/cg1-ss21/04-camera/1-models/), [Cameras](https://mimuc.github.io/cg1-ss21/04-camera/2-cameras/), [Dolly Zoom](https://mimuc.github.io/cg1-ss21/04-camera/3-dolly/) |
 |5|  19.05/20.05 | [Rasterization-1](https://changkun.de/s/cg1ss21-raster1) | ![](./docs/05-raster1/teaser.png) [Z-fighting](https://mimuc.github.io/cg1-ss21/05-raster1/1-zfighting/), [Drawing](https://mimuc.github.io/cg1-ss21/05-raster1/2-bresenham/) |
 |6|  02.06/03.06 | [Rasterization-2](https://changkun.de/s/cg1ss21-raster2) | ![](./docs/06-raster2/teaser.png) [Drawing](https://mimuc.github.io/cg1-ss21/06-raster2/1-draw/), [GLSL](https://mimuc.github.io/cg1-ss21/06-raster2/2-glsl/), [Shaders](https://mimuc.github.io/cg1-ss21/06-raster2/3-shaders/) |
-|7|  09.06/10.06 | [Texture](https://changkun.de/s/cg1ss21-texture) | TBA |
-|8|  16.06/17.06 | [Shadow](https://changkun.de/s/cg1ss21-shadow) | TBA |
-|9|  23.06/24.06 | [Material](https://changkun.de/s/cg1ss21-material) | TBA |
-|10| 30.06/31.06 | [Ray Tracing](https://changkun.de/s/cg1ss21-raytracing) | TBA |
-|11| 07.07/08.07 | [Animation](https://changkun.de/s/cg1ss21-animation) | TBA |
-|12| 14.07/15.07 | [Final Review](https://changkun.de/s/cg1ss21-review) | TBA |
+|7|  09.06/10.06 | [Texture](https://changkun.de/s/cg1ss21-texture) | - |
+|8|  16.06/17.06 | [Shading and Shadowing](https://changkun.de/s/cg1ss21-shade) | - |
 
 ### Assignments
 
@@ -68,8 +64,8 @@ Released on [Uni2Work](https://uni2work.ifi.lmu.de/course/S21/IfI/CG1/sheet).
 | 2 | 07.05 - 14.05 | [Mesh](https://uni2work.ifi.lmu.de/course/S21/IfI/CG1/sheet/Graded%20Assignment%202:%20Mesh/show) | in Tutorial 5 |
 | 3 | 17.05 - 26.05 | [Camera](https://uni2work.ifi.lmu.de/course/S21/IfI/CG1/sheet/Graded%20Assignment%203:%20Camera/show) | in Tutorial 6 |
 | 4 | 28.05 - 06.06 | [Rasterization](https://uni2work.ifi.lmu.de/course/S21/IfI/CG1/sheet/Graded%20Assignment%204:%20Rasterization/show) | in Tutorial 7 |
-| 5 | 14.06 - 25.06 | [Material](https://uni2work.ifi.lmu.de/course/S21/IfI/CG1/sheet/Graded%20Assignment%205:%20Material/show) | in Tutorial 10 |
-| 6 | 28.06 - 13.07 | [Illumination]([./assignments/06-illumination/README.pdf](https://uni2work.ifi.lmu.de/course/S21/IfI/CG1/sheet/Graded%20Assignment%206:%20Illumination/show)) | in Tutorial 12 |
+| 5 | 14.06 - 25.06 | [Material](https://uni2work.ifi.lmu.de/course/S21/IfI/CG1/sheet/Graded%20Assignment%205:%20Material/show) | No Discussion |
+| 6 | 28.06 - 13.07 | [Illumination]([./assignments/06-illumination/README.pdf](https://uni2work.ifi.lmu.de/course/S21/IfI/CG1/sheet/Graded%20Assignment%206:%20Illumination/show)) | No Discussion |
 
 ## Discussion
 
