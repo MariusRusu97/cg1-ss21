@@ -51,21 +51,21 @@ The following table shows the syllabus of the tutorials:
 |4|  12.05/13.05 | [Camera](https://changkun.de/s/cg1ss21-camera) | ![](./docs/04-camera/teaser.png) [Scene Graph](https://mimuc.github.io/cg1-ss21/04-camera/1-models/), [Cameras](https://mimuc.github.io/cg1-ss21/04-camera/2-cameras/), [Dolly Zoom](https://mimuc.github.io/cg1-ss21/04-camera/3-dolly/) |
 |5|  19.05/20.05 | [Rasterization-1](https://changkun.de/s/cg1ss21-raster1) | ![](./docs/05-raster1/teaser.png) [Z-fighting](https://mimuc.github.io/cg1-ss21/05-raster1/1-zfighting/), [Drawing](https://mimuc.github.io/cg1-ss21/05-raster1/2-bresenham/) |
 |6|  02.06/03.06 | [Rasterization-2](https://changkun.de/s/cg1ss21-raster2) | ![](./docs/06-raster2/teaser.png) [Drawing](https://mimuc.github.io/cg1-ss21/06-raster2/1-draw/), [GLSL](https://mimuc.github.io/cg1-ss21/06-raster2/2-glsl/), [Shaders](https://mimuc.github.io/cg1-ss21/06-raster2/3-shaders/) |
-|7|  09.06/10.06 | [Texture](https://changkun.de/s/cg1ss21-texture) | - |
-|8|  16.06/17.06 | [Shading and Shadowing](https://changkun.de/s/cg1ss21-shade) | - |
+|7|  09.06/10.06 | [Texture](https://changkun.de/s/cg1ss21-texture) | ![](./docs/07-texture/teaser.png) |
+|8|  16.06/17.06 | [Shading](https://changkun.de/s/cg1ss21-shade) | ![](./docs/08-shade/teaser.png) |
 
 ### Assignments
 
 Released on [Uni2Work](https://uni2work.ifi.lmu.de/course/S21/IfI/CG1/sheet).
 
-| # | Submission Period ([AoE](https://en.wikipedia.org/wiki/Anywhere_on_Earth)) | Assignments | Solution Discussion |
+| # | Submission Period | Assignments | Solution Discussion |
 |:--|:-----:|:------------|:-----------|
 | 1 | 30.04 - 04.05 | [Transformation](https://uni2work.ifi.lmu.de/course/S21/IfI/CG1/sheet/Graded%20Assignment%201:%20Transformations/show) | in Tutorial 3 |
 | 2 | 07.05 - 14.05 | [Mesh](https://uni2work.ifi.lmu.de/course/S21/IfI/CG1/sheet/Graded%20Assignment%202:%20Mesh/show) | in Tutorial 5 |
 | 3 | 17.05 - 26.05 | [Camera](https://uni2work.ifi.lmu.de/course/S21/IfI/CG1/sheet/Graded%20Assignment%203:%20Camera/show) | in Tutorial 6 |
 | 4 | 28.05 - 06.06 | [Rasterization](https://uni2work.ifi.lmu.de/course/S21/IfI/CG1/sheet/Graded%20Assignment%204:%20Rasterization/show) | in Tutorial 7 |
 | 5 | 14.06 - 25.06 | [Material](https://uni2work.ifi.lmu.de/course/S21/IfI/CG1/sheet/Graded%20Assignment%205:%20Material/show) | No Discussion |
-| 6 | 28.06 - 13.07 | [Illumination]([./assignments/06-illumination/README.pdf](https://uni2work.ifi.lmu.de/course/S21/IfI/CG1/sheet/Graded%20Assignment%206:%20Illumination/show)) | No Discussion |
+| 6 | 28.06 - 04.07 | [Illumination]([./assignments/06-illumination/README.pdf](https://uni2work.ifi.lmu.de/course/S21/IfI/CG1/sheet/Graded%20Assignment%206:%20Illumination/show)) | No Discussion |
 
 ## Discussion
 
