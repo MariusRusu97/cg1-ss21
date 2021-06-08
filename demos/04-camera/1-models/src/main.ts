@@ -229,10 +229,12 @@ class SceneGraph {
 
       const bunny1 = mesh;
       bunny1.name = 'bunny1';
+
       const bunny2 = mesh
         .clone()
         .translateOnAxis(translate.axis, translate.distance);
       bunny2.name = 'bunny2';
+
       const bunny3 = mesh
         .clone()
         .translateOnAxis(translate.axis, -translate.distance);
@@ -280,7 +282,11 @@ class SceneGraph {
 
     // TODO: Apply rotation around Y-axis (or X-, Z-axis) to the
     // three bunnies at the same time.
+    bunnies.rotateY(0.01);
 
+    bunny1.rotateY(0.01);
+    bunny2.rotateY(0.01);
+    bunny3.rotateY(0.01);
   }
 }
 

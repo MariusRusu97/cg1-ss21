@@ -88,9 +88,9 @@ class Tetrahedron {
   setup() {
     // vertex position buffer
     const vbo = new Float32Array([
-      -0.363322,
-      -0.387725,
-      0.85933, // 0
+      -0.35,
+      -0.4,
+      0.9, // 0
       -0.55029,
       -0.387725,
       -0.682297, // 1
@@ -106,6 +106,18 @@ class Tetrahedron {
     const g = new BufferGeometry();
     g.setIndex([
       // TODO: fill the vertex indices
+      2,
+      3,
+      1, // 1. face/triangle
+      2,
+      0,
+      3, // 2.
+      3,
+      0,
+      1, // 3.
+      1,
+      0,
+      2, // 4.
     ]);
     g.setAttribute('position', new BufferAttribute(vbo, 3));
 

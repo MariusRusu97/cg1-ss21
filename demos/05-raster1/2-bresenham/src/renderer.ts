@@ -175,7 +175,7 @@ export default class Renderer {
     return axis;
   }
   initScreen(width: number, height: number) {
-    const color = new Color(0xffffff);
+    const color = new Color(0x333333);
     const vs = new Array<number>();
     const cs = new Array<number>();
     for (let i = 0, j = 0, k = 0; i <= height; i++, k++) {

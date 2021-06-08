@@ -14,21 +14,30 @@ class MyClass {
   p1: string;
   p2: number;
   pn: Object[];
+
   constructor(p1: string, p2: number, ...pn: Object[]) {
     this.p1 = p1;
     this.p2 = p2;
     this.pn = [...pn];
   }
+
   f() {
     console.log(this.p1, this.p2, this.pn);
   }
 }
-const m = new MyClass('1', 2, 1, 2);
-m.f(); // '1', 2, [1, 2]
+
+// Play around with this and change types
+const m = new MyClass('1', 2);
+m.f();
+
+const y = new MyClass('1', 2, 5, '4', 'hi');
+y.f();
 
 /**
  * Interface
  */
+
+// Play around and change types
 
 interface User {
   name: string;

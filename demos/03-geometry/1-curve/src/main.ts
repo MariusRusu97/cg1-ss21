@@ -60,7 +60,8 @@ class BezierCurve extends Renderer {
       new Vector2(10, -7),
       new Vector2(20, 20),
       // For example:
-      // new Vector2(-10, 20),
+      new Vector2(-10, 20),
+      new Vector2(-15, 25),
     ];
 
     // The actual geometry to render
@@ -145,9 +146,10 @@ class BezierCurve extends Renderer {
   }
   interpolate(b0: Vector2, b1: Vector2, t: number): Vector2 {
     // TODO: implement the de Casteljau algorithm
-    const x = 0;
-    const y = 0;
-    return new Vector2(x, y);
+    const copyB0: Vector2 = new Vector2(b0.x, b0.y);
+    const copyB1: Vector2 = new Vector2(b1.x, b1.y);
+
+    return copyB0.add(copyB1.sub(copyB0).multiplyScalar(t));
   }
   /**
    * visualizeDeCasteljauPoint draws the calculation process of the

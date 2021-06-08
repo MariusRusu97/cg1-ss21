@@ -74,7 +74,7 @@ export default class DollyZoom extends Renderer {
    */
   dollyZoomFOV(dist: number): number {
     // TODO: calculate the corresponding fov of given distance
-    return dist;
+    return 2 * (Math.atan(1 / dist) * (180 / Math.PI));
   }
   /**
    * returns the needed distance for dolly zoom effect
@@ -82,7 +82,7 @@ export default class DollyZoom extends Renderer {
    */
   dollyZoomDist(fov: number): number {
     // TODO: calculate the corresponding distance of given fov
-    return fov;
+    return 2 / Math.tan(fov * (Math.PI / 180));
   }
   /**
    * Update camera parameters including fov and distance to the bunny
@@ -124,7 +124,10 @@ export default class DollyZoom extends Renderer {
     }
 
     // TODO: update the fov of the given camera.
-
+    this.camera.fov = this.params.fov;
+    const dist = this.dollyZoomDist(this.params.fov);
+    this.params.distance = dist;
+    this.camera.position.x = dist;
   }
   /**
    * changeDist is called if the camera fov is changed.
@@ -135,7 +138,10 @@ export default class DollyZoom extends Renderer {
     }
 
     // TODO: update the camera distance to the bunny.
-
+    this.camera.position.x = this.params.distance;
+    const fov = this.dollyZoomFOV(this.params.distance);
+    this.params.fov = fov;
+    this.camera.fov = fov;
   }
   /**
    * update is executed in the render loop. One can use it to update

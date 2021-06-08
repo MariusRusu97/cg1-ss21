@@ -14,6 +14,7 @@ document.body.appendChild(input);
 
 // Create a button and append it to the document body
 const btn = document.createElement('button');
+// Give button a text
 btn.textContent = 'Hello Computer Graphics 1 using TypeScript?';
 document.body.appendChild(btn);
 
@@ -31,24 +32,33 @@ btn.addEventListener('click', () => {
  *
  * @param msg is an input message
  */
-function sayHello(msg: string) {
+function sayHello(msg: number | string) {
   // Print a console log
   console.log('Hello mimuc/cg1 from console!');
-  if (msg.length !== 0) {
-    console.log('Your input is: ' + msg);
-  } else {
-    console.log('No inputs!');
+
+  // Let's spice this up a little
+  if (typeof msg === 'string') {
+    console.log('Type of msg: ' + typeof msg);
+    if (msg.length !== 0) {
+      console.log('Your input is: ' + msg);
+    } else {
+      console.log('No inputs!');
+    }
   }
 
   // Create a <p> element and append to the document body
   for (let i = 0; i < 3; i++) {
     const p = document.createElement('p');
-    if (msg.length !== 0) {
-      p.textContent = `Hello mimuc.de/cg1! Your input is: ${msg}`;
-    } else {
-      p.textContent = 'Hello mimuc.de/cg1! But you did not say anything.';
+
+    if (typeof msg === 'string') {
+      console.log('Type of msg: ' + typeof msg);
+      if (msg.length !== 0) {
+        p.textContent = `Hello mimuc.de/cg1! Your input is: ${msg}`;
+      } else {
+        p.textContent = 'Hello mimuc.de/cg1! But you did not say anything.';
+      }
+      document.body.appendChild(p);
     }
-    document.body.appendChild(p);
   }
 }
 

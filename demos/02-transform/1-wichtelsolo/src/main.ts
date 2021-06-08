@@ -186,11 +186,13 @@ class SimpleWorld {
     // Hint: you can use:
     //  1. o.position.copy(new Vector(x, y, z)), or
     //  2. directly set o.position.x = ..., etc.
-
-
-
-
-
+    o.position.copy(
+      new Vector3(
+        this.menuParams.transX,
+        this.menuParams.transY,
+        this.menuParams.transZ
+      )
+    );
   }
   setupScale() {
     const o = <Object3D>this.scene.getObjectByName('tinman');
@@ -199,10 +201,13 @@ class SimpleWorld {
     // Hint: you can use:
     //  1. o.scale.copy(new Vector(x, y, z)), or
     //  2. directly set o.scale.x = ..., etc.
-
-
-
-
+    o.scale.copy(
+      new Vector3(
+        this.menuParams.scaleX,
+        this.menuParams.scaleY,
+        this.menuParams.scaleZ
+      )
+    );
   }
 }
 

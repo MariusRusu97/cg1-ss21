@@ -56,12 +56,14 @@ class SimpleWorld {
       position: new Vector3(0.3, 0.3, 1.2),
       lookAt: new Vector3(0, 0, 0),
     };
+
     this.camera = new PerspectiveCamera(
       cameraParam.fov,
       cameraParam.aspect,
       cameraParam.near,
       cameraParam.far
     );
+
     this.camera.position.copy(cameraParam.position);
     this.camera.lookAt(cameraParam.lookAt);
     window.addEventListener(
@@ -89,12 +91,14 @@ class SimpleWorld {
     this.renderer.render(this.scene, this.camera);
     window.requestAnimationFrame(() => this.render());
   }
+
   setup() {
     this.setupGridPlane();
     this.setupAxes();
     this.setupBunny();
     this.setupLight();
   }
+
   setupGridPlane() {
     const gridParam = {
       size: 5,
@@ -103,22 +107,25 @@ class SimpleWorld {
       materialTransparency: true,
     };
     // TODO: 1. Create a GridHelper then add it to the scene.
-    // const gh = new GridHelper(gridParam.size, gridParam.divisions);
-    // this.scene.add(gh);
+    const gh = new GridHelper(gridParam.size, gridParam.divisions);
+    this.scene.add(gh);
   }
+
   setupAxes() {
     // TODO: 2. Create a AxesHelper then add it to the scene.
-    // const ah = new AxesHelper(10);
-    // this.scene.add(ah);
+    const ah = new AxesHelper(10);
+    this.scene.add(ah);
   }
+
   setupBunny() {
     // TODO: 3. Create an OBJ Loader and use the loader to load bunny.obj file.
-    // const loader = new OBJLoader();
-    // loader.load('assets/bunny.obj', model => {
-    //   const mesh = model.children[0];
-    //   this.scene.add(mesh);
-    // });
+    const loader = new OBJLoader();
+    loader.load('assets/bunny.obj', model => {
+      const mesh = model.children[0];
+      this.scene.add(mesh);
+    });
   }
+
   setupLight() {
     const lightParams = {
       color: 0xffffff,
@@ -130,18 +137,18 @@ class SimpleWorld {
 
     // TODO: 4. Create a PointLight and add to the group, then
     // create a PointLightHelper and also adds to the light group.
-    // const light = new PointLight(
-    //   lightParams.color,
-    //   lightParams.intensity,
-    //   lightParams.distance
-    // );
-    // light.position.copy(lightParams.position);
-    // g.add(light);
+    const light = new PointLight(
+      lightParams.color,
+      lightParams.intensity,
+      lightParams.distance
+    );
+    light.position.copy(lightParams.position);
+    g.add(light);
 
-    // const helper = new PointLightHelper(light, 0.1);
-    // g.add(helper);
+    const helper = new PointLightHelper(light, 0.1);
+    g.add(helper);
 
-    // this.scene.add(g);
+    this.scene.add(g);
   }
 }
 

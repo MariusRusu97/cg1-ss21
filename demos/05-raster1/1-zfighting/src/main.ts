@@ -23,9 +23,9 @@ class zFighting extends Renderer {
       new MeshBasicMaterial({
         color: 0x2e75b5,
         // TODO: uncomment the following code to avoid z-fighting
-        // polygonOffset: true,
-        // polygonOffsetFactor: 1.0,
-        // polygonOffsetUnits: 4.0,
+        polygonOffset: true,
+        polygonOffsetFactor: 1.0,
+        polygonOffsetUnits: 4.0,
       })
     );
     this.scene.add(m1, m2);

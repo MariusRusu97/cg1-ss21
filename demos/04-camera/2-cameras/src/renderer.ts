@@ -193,12 +193,17 @@ export class Renderer {
     // Hint: you can check the camera type using this.menu.cameraType
     // - Perspective camera is stored in this.perspCamera
     // - Orthographic camera is stored in this.orthoCamera
-
+    if (this.menu.cameraType === 'Perspective') {
+      this.renderer.render(this.scene, this.perspCamera);
+    } else {
+      this.renderer.render(this.scene, this.orthoCamera);
+    }
 
     // TODO: update projection matrix
     //
     // Hint: you can call .updateProjectionMatrix from different cameras.
-
+    this.perspCamera.updateProjectionMatrix();
+    this.orthoCamera.updateProjectionMatrix();
 
     window.requestAnimationFrame(() => this.render());
   }
